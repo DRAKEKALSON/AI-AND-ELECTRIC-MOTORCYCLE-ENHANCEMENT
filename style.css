@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: o;
+    background-color: chocolate;
+}
+nav {
+    width: 100%;
+    height:100%;
+    background-color: rgb(228, 134, 10);
+}
+nav a {
+    float: right;
+    margin: 20px;
+    color: rgb(238, 68, 16);
+    text-decoration:none ;
+    font-size: 20px;
+}
+nav a:hover {
+    color: rgb(25, 35, 122);
+    background-color: rgb(31, 182, 31);
+    height: 50%;
+}
+nav img {
+    margin: 0px 10px 5px 20px;
+    width: 10%;
+    height: 100px  
+}
+.banner {
+    position: relative;
+    color: rgb(34, 123, 139);
+    height: 900px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background: -o-linear-gradient(rgb(243, 168, 5));
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: blue;
+}
+.moving-image{
+    position: relative;
+    animation: moveRight 7s infinite linear;
+    animation-delay: 6s linear;
+}
+
+@keyframes moveRight{
+    0%{ 
+    left:0;
+    }
+    100%{
+        left:800px;
+    }
+}
+.motorcyle{
+    margin: 60%;
+}
+    
+.list {
+    margin-top: 60px;
+}
