@@ -1,28 +1,28 @@
-/* About Page */
-.about-section {
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.about-content {
-  background-color: #ffffff;
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.about-content h2 {
-  color: #1e90ff;
-  margin-bottom: 10px;
-}
-
-.video-section {
-  text-align: center;
-}
-
-.video-section h2 {
-  color: #1e90ff;
-  margin-bottom: 10px;
-}
+ .section-title {
+            color: #006622;
+            font-size: 1.8rem;
+            margin-top: 20px;
+            border-left: 5px solid #009933;
+            padding-left: 10px;
+        }
+        .vision-mission {
+            background: rgba(124, 203, 5, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .vision-mission h3 {
+            color: #009933;
+            margin-bottom: 10px;
+        }
+        .vision-mission ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .highlight {
+            background: #d55f05;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-style: italic;
